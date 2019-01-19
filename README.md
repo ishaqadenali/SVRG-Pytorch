@@ -3,5 +3,7 @@ Implementation of an efficient variant of SVRG that relies on mini-batching impl
 
 ## Requirements
 torch version 1.1
+
 torchvision
+
 autograd
