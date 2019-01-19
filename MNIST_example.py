@@ -87,6 +87,7 @@ while(counter < iterations):
         counter += 1
         if (counter == iterations):
             break
+
 print('time for SVRG ' + str(iterations) +' steps')
 print(time.time()-total)
 print('')
@@ -103,6 +104,7 @@ for t in range(iterations):
     optimizer2.zero_grad()
     loss.backward()
     optimizer2.step()
+    
 print('time for SGD ' + str(iterations) +' steps')
 print(time.time()-total)
 print('')
