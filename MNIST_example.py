@@ -87,7 +87,6 @@ while(counter < iterations):
         counter += 1
         if (counter == iterations):
             break
-
 print('time for SVRG ' + str(iterations) +' steps')
 print(time.time()-total)
 print('')
@@ -104,7 +103,6 @@ for t in range(iterations):
     optimizer2.zero_grad()
     loss.backward()
     optimizer2.step()
-    
 print('time for SGD ' + str(iterations) +' steps')
 print(time.time()-total)
 print('')
@@ -128,8 +126,6 @@ acc = np.sum(pred == goal)/60000
 print('train acc SGD')
 print(acc)
 print('')
-
-
 
 #print test accuracy SVRG
 y_predn = model(x_test).data.numpy()
