@@ -13,7 +13,7 @@ Feel free to make any changes that improve the efficiency of the optimizer, or p
 
 pytorch version 1.1.
 
-autograd
+autograd (if you want to run the MNIST Example. I had trouble using the built in pytorch dataloader).
 
 ## Example
-In the example file, we train a feedforward neural network to classify [MNIST](http://yann.lecun.com/exdb/mnist/). 
+In the example file, we train a feedforward neural network to classify [MNIST](http://yann.lecun.com/exdb/mnist/) digits. 
