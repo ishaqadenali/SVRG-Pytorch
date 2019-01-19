@@ -11,7 +11,8 @@ Feel free to make any changes that improve the efficiency of the optimizer, or p
 
 ## Requirements
 
-pytorch version 1.1
+pytorch version 1.1.
+
 autograd
 
 ## Example
